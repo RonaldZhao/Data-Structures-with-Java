@@ -229,7 +229,7 @@ System.out.println("s="+s);
 
 > 2.6 输出对象数组最简单的方法是什么？
 
-	答：输出对象数组最简单的方法是将它传递给Arrays.toList()方法，该方法生成List对象，
+	答：输出对象数组最简单的方法是将它传递给Arrays.toString()方法，该方法生成String代表(representation)，
 		可用System.out.println()方法进行显示。
 
 > 2.7 如果说折半查找远快于顺序查找，为什么还用后者呢？
